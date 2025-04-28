@@ -92,3 +92,42 @@ def mcd(a, b):
 
 # Ejemplo de uso del cálculo del MCD
 print(mcd(48, 18))  # Resultado: 6 (el MCD de 48 y 18)
+
+
+# Algoritmo Merge Sort
+def merge_sort(lista):
+    if len(lista) > 1:
+        medio = len(lista) // 2
+        izquierda = lista[:medio]
+        derecha = lista[medio:]
+        
+        # Llamadas recursivas para dividir
+        merge_sort(izquierda)
+        merge_sort(derecha)
+        
+        # Fusionar las mitades ordenadas
+        i = j = k = 0
+        while i < len(izquierda) and j < len(derecha):
+            if izquierda[i] < derecha[j]:
+                lista[k] = izquierda[i]
+                i += 1
+            else:
+                lista[k] = derecha[j]
+                j += 1
+            k += 1
+        
+        # Añadir elementos restantes de izquierda/derecha
+        while i < len(izquierda):
+            lista[k] = izquierda[i]
+            i += 1
+            k += 1
+        while j < len(derecha):
+            lista[k] = derecha[j]
+            j += 1
+            k += 1
+
+# Ejemplo de uso
+lista = [38, 27, 43, 3, 9, 82, 10]
+print("Lista original:", lista)  # Resultado: Lista original: [38, 27, 43, 3, 9, 82, 10]
+merge_sort(lista)
+print("Lista ordenada:", lista)  # Resultado: Lista ordenada: [3, 9, 10, 27, 38, 43, 82]
