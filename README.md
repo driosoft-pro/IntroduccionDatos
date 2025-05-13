@@ -61,20 +61,19 @@ Contiene ejemplos de uso de **NumPy** y **Matplotlib** en Python, orientados a l
    ```
 
 ---
+## 📚 Requirements
 
-## 📚 Requisitos
-
-- Python 3.10 o superior
-- Virtualenv o entorno similar
-- Navegador web moderno (para visualizar Jupyter)
+- Python 3.10 or higher  
+- Virtualenv or a similar environment  
+- Modern web browser (to view Jupyter Notebook)  
 
 ---
 
-## ✍️ Autor
+## ✍️ Author
 
-✍️ **Desarrollado por:** **Deyton Riasco Ortiz**  
-📅 **Fecha:** 2025  
-📧 **Contacto:** [deyton007@gmail.com](mailto:deyton007@gmail.com)
+✍️ **Developed by:** **Deyton Riasco Ortiz**  
+📅 **Date:** 2025  
+📧 **Contact:** [deyton007@gmail.com](mailto:deyton007@gmail.com)  
 
 ---
 
