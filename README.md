@@ -73,7 +73,7 @@ Contiene ejemplos de uso de **NumPy** y **Matplotlib** en Python, orientados a l
 
 ✍️ **Developed by:** **Deyton Riasco Ortiz**  
 📅 **Date:** 2025  
-📧 **Contact:** [deyton007@gmail.com](mailto:deyton007@gmail.com)  
+📧 **Contact:** [driosoftpro@gmail.com](mailto:driosoftpro@gmail.com)  
 
 ---
 
